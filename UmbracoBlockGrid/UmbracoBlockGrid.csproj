@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net7.0</TargetFramework>
+		<TargetFramework>net8.0</TargetFramework>
 		<ContentTargetFolders>.</ContentTargetFolders>
 	</PropertyGroup>
 
@@ -51,8 +51,9 @@
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
-		<PackageReference Include="Umbraco.Cms.Web.Website" Version="11.0.0" />
-		<PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="11.0.0" />
+		<PackageReference Include="Umbraco.Cms" Version="13.5.3" />
+		<PackageReference Include="Umbraco.Cms.Web.Website" Version="13.5.3" />
+		<PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="13.5.3" />
 	</ItemGroup>
 
 	<ItemGroup>
